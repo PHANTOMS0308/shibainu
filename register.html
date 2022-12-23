@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Shiba Inu 101: Newsletter Subscription</title>
+  <link rel='stylesheet' href='./style.css'>
+</head>
+<body>
+  <nav class='flex'>
+    <a href='/index.html' class='nav__left flex'>
+      <img class='logo--small' src='\images\logo.png' alt='logo'>
+      <span class='brand-name'>shibu ina</span>
+    </a>
+    <label for='menu' class='nav__right flex'>
+      <div class='nav__right__bar'></div>
+      <div class='nav__right__bar'></div>
+      <div class='nav__right__bar'></div>
+    </label>
+    <input type='checkbox' id='menu' class='nav__right__checkbox'>
+    <section class='nav__menu'>
+      <div><a href='/about.html'>Our Story</a></div>
+      <div><a href='/index.html'>Home Page</a></div>
+      <div><a href='https://shibatoken.com/index.html'>Shiba Token</a></div>
+      <div><a href='/register.html'>Register</a></div>
+    </section>
+  </nav>
+  <div class='grid'>
+    <header>
+      <section class='header__title'>
+        <h1>Newsletter Subscription</h1>
+        <p>
+          Sign up today for <b>SHIBA INU 101</b> and recieve a three-months 
+          <b>FREE</b> trials. No payment beforehand required.
+        </p>
+      </section>
+      <section class='header__CTA flex'>
+        <a href='/index.html'><img class='logo--large' src='\images\logo.png' alt='logo'></a>
+        <button class='button--CTA'><a href='#container'>sign up today for <b>FREE</b></a></button>
+      </section>
+    </header>
+    <main id='container' class='register__main'>
+      <h2>Sign Up Form</h2>
+      <form action='/register' method='post' class='flex'>
+        <section class='form__entry'>
+          <label for='name'>Name: </label>
+          <input id='name' type='text' placeholder='Ke Zhou (required)' required>
+        </section>
+        <section class='form__entry'>
+          <label for='email'>Email: </label>
+          <input id='email' type='email' placeholder='kezhou@shibuina.co (required)' required>
+        </section>         
+        <section class='form__entry'>
+          <label for='age'>Age: </label>
+          <input id='age' type='number' placeholder='24 (optional)'>
+        </section>          
+        <section class='form__entry'>
+          <label for='gender'>Gender: </label>
+          <select id='gender'>
+            <option value=''>select your geneder (optional)</option>
+            <option value='male'>Male</option>
+            <option value='female'>Female</option>
+            <option value='non-binary'>Non-binary</option>
+            <option value='intersex'>Intersex</option>
+            <option value='trans'>Trans</option>
+            <option value='unlisted'>Gender not Listed Above</option>
+          </select>
+        </section>          
+        <section class='form__entry'>
+          <label for='pronoun'>Perferred Pronoun: </label>
+          <input id='pronoun' type='text' placeholder='They/Them/Their (optional)'>
+        </section>         
+        <section class='form__entry checkbox'>
+          <input id='question' type='checkbox' required>
+          <label for='question'>Do you own a Shiba Inu? (required)</label>
+        </section>
+        <section class='form__entry submit'>
+          <input type='submit' value='Sign Up'>
+          <p>
+            By signing up you are agreeing to our 
+            <a href='/terms.html'>Terms of Service</a> 
+            and our <a href='/privacy.html'>Privacy Policy</a>
+          </p>
+        </section>
+      </form>
+    </main>
+    <footer>
+      <section class='footer__CTA flex'>
+        <h3>Not decided yet?</h3>
+        <p>It's totally fine if you are hesitant. Press the button below to hear our story!</p>
+        <button class='button--CTA'><a href='/about.html'>know more about <b>US</b></a></button>
+      </section>
+      <section class='footer__contacts flex'>
+        <p><b>Our Address:</b> 45-07 Trump Tower, NYC</p>
+        <p><b>Email Us:</b> kezhou@shibu-ina.co</p>
+        <p><b>Call Us:</b> +1(347)-268-4580</p>
+      </section>
+      <section class='footer__ending'>
+				<a href='/index.html'><img class='logo--large' src='images\logo.png' alt='logo'></a>
+          <div class='footer__ending__legal flex'>
+						<a href='/index.html'>&#169; Shibu Ina Inc.</a>
+						<a href='/pivacy.html'>Privacy Policy</a>
+						<a href='/terms.html'>Terms of Service</a>
+        	</div>
+      </section>
+    </footer>
+  </div>
+</body>
+</html>
